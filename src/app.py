@@ -21,7 +21,7 @@ app = Flask(__name__)
 #     learn = load_learner(path, fname=model_name)
 #     return learn
 
-model = load_learner(path="models", model_name="model.pkl")
+model = load_learner("models", "model.pkl")
 
 def load_image_url(url: str) -> Image:
     response = requests.get(url)
