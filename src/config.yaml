@@ -26,13 +26,13 @@ about:
 code: https://github.com/npatta01/web-deep-learning-classifier
 
 sampleImages:
-  - name: lasagne
-    url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Lasagne_-_stonesoup.jpg
-  - name: sushi
-    url: https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg
-  - name: waffles
-    url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Waffles_with_Strawberries.jpg
-  - name: eggplant (not in training data)
-    url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/1280px-Solanum_melongena_24_08_2012_%281%29.JPG
+  - name: Russian Blue
+    url: https://upload.wikimedia.org/wikipedia/commons/d/de/Russian_Blue_kitten.jpg
+  - name: British Shortair
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3b/British_shorthair_with_calico_coat_%282%29.jpg
+  - name: English Cocker Spaniel
+    url: https://upload.wikimedia.org/wikipedia/commons/8/86/English_Cocker_Spaniel_black_portrait.jpg
+  - name: Jin Do (not in training data)
+    url: https://upload.wikimedia.org/wikipedia/commons/d/db/%EC%A7%84%EB%8F%84%EC%9A%B8%ED%94%84%EB%8F%85_F1_%EC%9A%A9%EC%9D%B4_%EB%B6%80_%EB%AA%BD%EA%B3%A8%EB%8A%91%EB%8C%80%2C_%EB%AA%A8%EA%B2%AC_%EC%A7%84%EB%8F%84%EA%B0%9C.jpg
   - name: table (not in training & not a food)
     url: https://image.shutterstock.com/image-photo/brown-light-wooden-round-dining-260nw-588358070.jpg 
