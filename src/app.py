@@ -17,11 +17,11 @@ with open("src/config.yaml", 'r') as stream:
 
 app = Flask(__name__)
 
+# def load_model(path=".", model_name="model.pkl"):
+#     learn = load_learner(path, fname=model_name)
+#     return learn
 
-def load_model(path=".", model_name="model.pkl"):
-    learn = load_learner(path, fname=model_name)
-    return learn
-
+model = load_learner(path="models", model_name="model.pkl")
 
 def load_image_url(url: str) -> Image:
     response = requests.get(url)
@@ -104,9 +104,6 @@ def root():
 
 def before_request():
     app.jinja_env.cache = {}
-
-
-model = load_model('models')
 
 if __name__ == '__main__':
     port = os.environ.get('PORT', 5000)
