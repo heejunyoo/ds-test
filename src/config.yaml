@@ -1,9 +1,9 @@
-title: Pet Images Classifier
-description: Classify pet images - fastai pretrained model
+title: Dentsply Sirona Product Classifier
+description: Classify DS Products
 about:
 
 
-  This is a Pet Images Classifier using Deep Learning built on top of Pytorch.
+  This is a product Classifier of Dentsply Sirona using Deep Learning built on top of Pytorch.
 
 
   The project was build by [Nidhin Pattaniyil](https://npatta01.github.io)
@@ -26,13 +26,13 @@ about:
 code: https://github.com/npatta01/web-deep-learning-classifier
 
 sampleImages:
-  - name: Russian Blue
-    url: https://upload.wikimedia.org/wikipedia/commons/d/de/Russian_Blue_kitten.jpg
-  - name: British Shortair
-    url: https://upload.wikimedia.org/wikipedia/commons/3/3b/British_shorthair_with_calico_coat_%282%29.jpg
-  - name: English Cocker Spaniel
-    url: https://upload.wikimedia.org/wikipedia/commons/8/86/English_Cocker_Spaniel_black_portrait.jpg
-  - name: Jin Do (not in training data)
-    url: https://upload.wikimedia.org/wikipedia/commons/d/db/%EC%A7%84%EB%8F%84%EC%9A%B8%ED%94%84%EB%8F%85_F1_%EC%9A%A9%EC%9D%B4_%EB%B6%80_%EB%AA%BD%EA%B3%A8%EB%8A%91%EB%8C%80%2C_%EB%AA%A8%EA%B2%AC_%EC%A7%84%EB%8F%84%EA%B0%9C.jpg
-  - name: table (not in training & not a food)
+  - name: inLab
+    url: https://drive.google.com/open?id=1MBOLDqDkZD2Kx4qdZeEt5CLztLk-CS9I
+  - name: inEos X5
+    url: https://drive.google.com/open?id=1LpIRcJ5IZxJWCm-vyulDqXzHIlgArz9B
+  - name: Speed Fire
+    url: https://drive.google.com/open?id=1w2ZeTET37oFAzJOS9qq6hD-1t2vbwiEO
+  - name: Prime Scan
+    url: https://drive.google.com/open?id=1W8llEYO0zx0WgxE5VCwHW4SCfIAkIYZw
+  - name: table (not in training)
     url: https://image.shutterstock.com/image-photo/brown-light-wooden-round-dining-260nw-588358070.jpg 
